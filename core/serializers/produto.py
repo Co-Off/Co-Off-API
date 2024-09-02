@@ -1,8 +1,8 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import Bebida
+from core.models import Produto
 
-class BebidaSerializer(ModelSerializer):
+class ProdutoSerializer(ModelSerializer):
     class Meta:
-        model = Bebida
+        model = Produto
         fields = "__all__"
