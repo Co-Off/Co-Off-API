@@ -7,7 +7,7 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
 
 from core import models
-from core.models import Compra
+from core.models import Compra, ItensCompra
 
 
 class UserAdmin(BaseUserAdmin):
@@ -57,3 +57,6 @@ admin.site.register(models.Categoria)
 admin.site.register(models.Ingrediente)
 admin.site.register(models.Produto)
 admin.site.register(models.Compra)
+admin.site.register(ItensCompra)
+
+# Uso de TabularInline no Admin para Itens da Compra
