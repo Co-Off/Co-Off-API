@@ -56,7 +56,18 @@ admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Categoria)
 admin.site.register(models.Ingrediente)
 admin.site.register(models.Produto)
-admin.site.register(models.Compra)
-admin.site.register(ItensCompra)
-
 # Uso de TabularInline no Admin para Itens da Compra
+
+class ItensCompraInline(admin.TabularInline):
+    model = ItensCompra
+    extra = 1 # Quantidade de itens adicionais
+
+
+@admin.register(Compra)
+class CompraAdmin(admin.ModelAdmin):
+    list_display = ("usuario", "status")
+    search_fields = ("usuario", "status")
+    list_filter = ("usuario", "status")
+    ordering = ("usuario", "status")
+    list_per_page = 25
+    inlines = [ItensCompraInline]

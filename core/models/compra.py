@@ -13,5 +13,7 @@ class Compra(models.Model):
     status = models.IntegerField(choices=StatusCompra.choices,  default=StatusCompra.CARRINHO)
 
 class ItensCompra(models.Model):
-    compra = models.ForeignKey(Produto, on_delete=models.CASCADE, related_name="itens")
+    compra = models.ForeignKey(Compra, on_delete=models.CASCADE, related_name="itens")
+    produto = models.ForeignKey(Produto, on_delete=models.PROTECT, related_name="+")
     quantidade = models.IntegerField(default=1)
+    observacoes = models.CharField(max_length=100, null=True, blank=True)
