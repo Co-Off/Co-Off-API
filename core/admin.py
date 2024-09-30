@@ -18,6 +18,7 @@ class UserAdmin(BaseUserAdmin):
     fieldsets = (
         (None, {"fields": ("email", "password")}),
         (_("Personal Info"), {"fields": ("name", "passage_id")}),
+        (_("Additional Info"), {"fields": ("cep", "endereco", "cpf", "idade", "telefone")}),
         (
             _("Permissions"),
             {

@@ -43,6 +43,12 @@ class User(AbstractBaseUser, PermissionsMixin):
     passage_id = models.CharField(max_length=255, unique=True)
     email = models.EmailField(max_length=255, unique=True)
     name = models.CharField(max_length=255)
+    cep = models.CharField(max_length=9, null=True, blank=True)
+    endereco = models.CharField(max_length=255, null=True, blank=True)
+    cpf = models.CharField(max_length=14, null=True, blank=True)
+    idade = models.IntegerField(null=True, blank=True)
+    telefone = models.CharField(max_length=11, null=True, blank=True)
+
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
 
