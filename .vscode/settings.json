@@ -25,5 +25,8 @@
   "peacock.color": "#61dafb",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+  "cSpell.words": [
+    "Produto"
+  ]
 }
