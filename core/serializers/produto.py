@@ -26,8 +26,3 @@ class Meta:
         model = Produto
         fields = "__all__"
         depth = 1
-
-class LivroListSerializer(ModelSerializer):
-    class Meta:
-        model = Produto
-        fields = ("id", "titulo", "preco")
