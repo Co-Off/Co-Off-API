@@ -57,11 +57,10 @@ admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Categoria)
 admin.site.register(models.Ingrediente)
 admin.site.register(models.Produto)
-# Uso de TabularInline no Admin para Itens da Compra
 
 class ItensCompraInline(admin.TabularInline):
     model = ItensCompra
-    extra = 1 # Quantidade de itens adicionais
+    extra = 1
 
 
 @admin.register(Compra)
