@@ -1,5 +1,4 @@
 from core.models import Compra, ItensCompra
-from core.models import Produto
 from rest_framework.serializers import CharField, ModelSerializer, SerializerMethodField
 
 class ItensCompraSerializer(ModelSerializer):
@@ -44,7 +43,7 @@ class CriarEditarCompraSerializer(ModelSerializer):
         return compra
     
 class ListarItensCompraSerializer(ModelSerializer):
-    livro = CharField(source="produto.nome", read_only=True)
+    produto = CharField(source="produto.nome", read_only=True)
 
     class Meta:
         model = ItensCompra
