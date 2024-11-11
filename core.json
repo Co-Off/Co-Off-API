@@ -1,0 +1,2171 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-11-11T14:41:07.292Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "Gerente",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 6,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 6,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 6,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 6,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 7,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 7,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 7,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 7,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 8,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 8,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 8,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 8,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 9,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 9,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 9,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 9,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add ingrediente",
+    "content_type": 10,
+    "codename": "add_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change ingrediente",
+    "content_type": 10,
+    "codename": "change_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete ingrediente",
+    "content_type": 10,
+    "codename": "delete_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view ingrediente",
+    "content_type": 10,
+    "codename": "view_ingrediente"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add compra",
+    "content_type": 11,
+    "codename": "add_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change compra",
+    "content_type": 11,
+    "codename": "change_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete compra",
+    "content_type": 11,
+    "codename": "delete_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view compra",
+    "content_type": 11,
+    "codename": "view_compra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add itens compra",
+    "content_type": 12,
+    "codename": "add_itenscompra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change itens compra",
+    "content_type": 12,
+    "codename": "change_itenscompra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete itens compra",
+    "content_type": 12,
+    "codename": "delete_itenscompra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view itens compra",
+    "content_type": 12,
+    "codename": "view_itenscompra"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add produto",
+    "content_type": 13,
+    "codename": "add_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change produto",
+    "content_type": 13,
+    "codename": "change_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete produto",
+    "content_type": 13,
+    "codename": "delete_produto"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view produto",
+    "content_type": 13,
+    "codename": "view_produto"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Clientes",
+    "permissions": [
+      1,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Gerente",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      33,
+      34,
+      35,
+      36,
+      41,
+      42,
+      43,
+      44,
+      37,
+      38,
+      39,
+      40,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      29,
+      30,
+      31,
+      32,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 3,
+  "fields": {
+    "name": "Caixa",
+    "permissions": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ]
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "ingrediente"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "core",
+    "model": "compra"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "core",
+    "model": "itenscompra"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "core",
+    "model": "produto"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d9708ip0xwpg9w3bq4paswrxrpqygvj6",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1tAVaW:ltVdjVRp_8UfIUU42MclJjpnDB3WZHDNJBFFHrUYgko",
+    "expire_date": "2024-11-25T14:40:20.358Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 12,
+  "fields": {
+    "attachment_key": "237bba81-10cc-46c4-a7c7-f0ff235ce116",
+    "public_id": "6311d51f-0dcf-4b75-940f-7d0a74308671",
+    "file": "images/6311d51f-0dcf-4b75-940f-7d0a74308671.png",
+    "description": "Drip Coffee Box Kraft",
+    "uploaded_on": "2024-10-09T19:40:38.548Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 13,
+  "fields": {
+    "attachment_key": "7f671bf3-2b19-4c7d-817f-854e89f1a177",
+    "public_id": "7ac26c2b-71d6-4735-a0e8-c6bb1869f770",
+    "file": "images/7ac26c2b-71d6-4735-a0e8-c6bb1869f770.png",
+    "description": "Matcha Tonka Latte",
+    "uploaded_on": "2024-10-09T19:40:48.564Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 14,
+  "fields": {
+    "attachment_key": "ed8014e2-b117-43a4-a3c1-1981a706d8bf",
+    "public_id": "21b448ea-5a99-4d0c-94bb-ce252f78e0e4",
+    "file": "images/21b448ea-5a99-4d0c-94bb-ce252f78e0e4.png",
+    "description": "Cold Drip V60 + Milk",
+    "uploaded_on": "2024-10-09T19:40:58.315Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 16,
+  "fields": {
+    "attachment_key": "bcc58bcf-4688-42a2-bd39-f0d3aac80db0",
+    "public_id": "b1cdcde9-1fb7-4c2f-a40c-7186e4873028",
+    "file": "images/b1cdcde9-1fb7-4c2f-a40c-7186e4873028.png",
+    "description": "Vanilla Latte",
+    "uploaded_on": "2024-10-09T19:41:24.092Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 17,
+  "fields": {
+    "attachment_key": "fbf2f148-ef05-46bf-b6ac-aa2604dbbde9",
+    "public_id": "bf2c412a-bdc0-4157-867a-fb95455a43b8",
+    "file": "images/bf2c412a-bdc0-4157-867a-fb95455a43b8.png",
+    "description": "Matcha Vanilla Latte",
+    "uploaded_on": "2024-10-09T19:41:42.235Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 18,
+  "fields": {
+    "attachment_key": "1afb80f9-9963-4d4a-9673-35e3258cf35b",
+    "public_id": "14cbf9db-f99d-4594-9070-67a3e9fca9bd",
+    "file": "images/14cbf9db-f99d-4594-9070-67a3e9fca9bd.png",
+    "description": "Tonka Latte",
+    "uploaded_on": "2024-10-09T19:41:58.411Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 19,
+  "fields": {
+    "attachment_key": "47b9434c-7436-43f8-89ea-167a1b37cd68",
+    "public_id": "06f34cbf-5810-4ac4-b426-e7d37c0642e9",
+    "file": "images/06f34cbf-5810-4ac4-b426-e7d37c0642e9.png",
+    "description": "Cold Drip V60",
+    "uploaded_on": "2024-10-09T19:42:09.995Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 20,
+  "fields": {
+    "attachment_key": "4cc7a3a2-238a-4fc5-8234-2c47e6779257",
+    "public_id": "28227120-f5ee-4349-aebc-a8f6d053faec",
+    "file": "images/28227120-f5ee-4349-aebc-a8f6d053faec.png",
+    "description": "Pão de Queijo",
+    "uploaded_on": "2024-10-09T19:42:20.235Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 21,
+  "fields": {
+    "attachment_key": "295f4c6c-f6e7-4755-85b3-3d177623e845",
+    "public_id": "e18f83a3-c159-469e-a3c1-d8ed4c459f2b",
+    "file": "images/e18f83a3-c159-469e-a3c1-d8ed4c459f2b.png",
+    "description": "Quiche",
+    "uploaded_on": "2024-10-09T19:42:33.283Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 22,
+  "fields": {
+    "attachment_key": "e485dc77-f324-4417-84c2-299e1bfa0dac",
+    "public_id": "87585b32-cef1-4ac8-b7d8-bf19d58c66cf",
+    "file": "images/87585b32-cef1-4ac8-b7d8-bf19d58c66cf.png",
+    "description": "Golden Latte",
+    "uploaded_on": "2024-10-09T19:42:43.715Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 23,
+  "fields": {
+    "attachment_key": "9cc4a5ca-e450-4335-a0bd-6fb8234e4ed5",
+    "public_id": "2be871a9-41ac-4a37-962b-3b0b3919cdd5",
+    "file": "images/2be871a9-41ac-4a37-962b-3b0b3919cdd5.png",
+    "description": "Croissant com geleia",
+    "uploaded_on": "2024-10-09T19:42:53.355Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 24,
+  "fields": {
+    "attachment_key": "f7c704c0-525e-47d7-ad5c-21513c10cb2a",
+    "public_id": "49b49db7-f6b1-44d4-8a08-c69ecc8eb25c",
+    "file": "images/49b49db7-f6b1-44d4-8a08-c69ecc8eb25c.png",
+    "description": "Cappuccino",
+    "uploaded_on": "2024-10-09T19:43:02.851Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 25,
+  "fields": {
+    "attachment_key": "134e7c9f-4e8d-4d14-92cd-9a7d14e1dd9c",
+    "public_id": "59d078ee-7f36-4b92-baf7-eae8cd86f489",
+    "file": "images/59d078ee-7f36-4b92-baf7-eae8cd86f489.png",
+    "description": "Pain au Chocolat",
+    "uploaded_on": "2024-10-09T19:43:14.587Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 26,
+  "fields": {
+    "attachment_key": "33685c53-5205-4b77-8c5b-17706e74e9e1",
+    "public_id": "21f29cf8-7333-4f88-bdd2-f467800b27de",
+    "file": "images/21f29cf8-7333-4f88-bdd2-f467800b27de.png",
+    "description": "Kraft edition - 250g",
+    "uploaded_on": "2024-10-09T19:43:27.211Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 27,
+  "fields": {
+    "attachment_key": "443db267-42a1-4297-aa89-cdf5b8c9d497",
+    "public_id": "23a44650-2480-4950-ad0d-63bf4c54660a",
+    "file": "images/23a44650-2480-4950-ad0d-63bf4c54660a.png",
+    "description": "Caramel muffin",
+    "uploaded_on": "2024-10-09T19:43:37.370Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 28,
+  "fields": {
+    "attachment_key": "c5470ac0-f91c-4706-a1d7-b8a9b3697d21",
+    "public_id": "07405392-5e19-4e87-a3cd-7419466c9105",
+    "file": "images/07405392-5e19-4e87-a3cd-7419466c9105.png",
+    "description": "Croissant",
+    "uploaded_on": "2024-10-09T19:43:52.195Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 29,
+  "fields": {
+    "attachment_key": "7d5fbe12-fad5-42e8-9c68-0c0ae4ec59f3",
+    "public_id": "8055c9ee-412c-438b-8498-3731c71cbab5",
+    "file": "images/8055c9ee-412c-438b-8498-3731c71cbab5.png",
+    "description": "Americano",
+    "uploaded_on": "2024-10-09T19:44:28.379Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 30,
+  "fields": {
+    "attachment_key": "5adb5f58-d72e-4161-9719-ee1a58c9d812",
+    "public_id": "b4ef6308-57a5-4493-8e75-fbbe11f5d192",
+    "file": "images/b4ef6308-57a5-4493-8e75-fbbe11f5d192.png",
+    "description": "Matcha Can - 30g",
+    "uploaded_on": "2024-10-09T19:44:41.203Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 31,
+  "fields": {
+    "attachment_key": "ac1e0233-8afb-4b7a-b518-a0036f8176f8",
+    "public_id": "98e57274-7a07-4215-a1d6-0ece45397c65",
+    "file": "images/98e57274-7a07-4215-a1d6-0ece45397c65.png",
+    "description": "Suco Greenpeople Verde",
+    "uploaded_on": "2024-10-09T19:44:52.619Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 32,
+  "fields": {
+    "attachment_key": "a8a3da74-d642-49d3-ab83-ffb9407e09ef",
+    "public_id": "55ca7a35-ecba-4d2c-b20a-a1267990f2bc",
+    "file": "images/55ca7a35-ecba-4d2c-b20a-a1267990f2bc.png",
+    "description": "Suco Greenpeople de Abacaxi e Hortelã",
+    "uploaded_on": "2024-10-09T19:45:05.452Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 33,
+  "fields": {
+    "attachment_key": "b94831e1-d1a2-4217-90bf-c4043cadd35d",
+    "public_id": "f32476f1-5e26-4757-ae22-1743b4226396",
+    "file": "images/f32476f1-5e26-4757-ae22-1743b4226396.png",
+    "description": "Suco Greenpeople de Laranja",
+    "uploaded_on": "2024-10-09T19:45:16.883Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 34,
+  "fields": {
+    "attachment_key": "a7f01d7a-faf8-4fbf-aa66-d23ea9b45886",
+    "public_id": "a988fc67-96a2-4f7f-96ef-0e141660a630",
+    "file": "images/a988fc67-96a2-4f7f-96ef-0e141660a630.png",
+    "description": "Fritz Limo",
+    "uploaded_on": "2024-10-09T19:45:29.147Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 35,
+  "fields": {
+    "attachment_key": "e04b661f-6d9f-415f-b13c-c5785ea058ee",
+    "public_id": "3acc4317-111b-40ff-a3de-ab887b01cf70",
+    "file": "images/3acc4317-111b-40ff-a3de-ab887b01cf70.png",
+    "description": "Refill Matcha Sachet - 30g",
+    "uploaded_on": "2024-10-09T19:45:46.443Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 36,
+  "fields": {
+    "attachment_key": "418bccb8-d02b-4662-a03f-fad382293e56",
+    "public_id": "2a0ab23b-a4ea-4693-90de-a4f5ef37c463",
+    "file": "images/2a0ab23b-a4ea-4693-90de-a4f5ef37c463.png",
+    "description": "Pure Black (Double Shot)",
+    "uploaded_on": "2024-10-09T19:47:13.539Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 37,
+  "fields": {
+    "attachment_key": "5419e67c-61fb-484f-807b-2d65c88393ae",
+    "public_id": "50c909a2-2b38-4e9a-8106-f66fa9275dd1",
+    "file": "images/50c909a2-2b38-4e9a-8106-f66fa9275dd1.png",
+    "description": "Black edition - 250g",
+    "uploaded_on": "2024-10-09T19:47:33.586Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 38,
+  "fields": {
+    "attachment_key": "81392954-880a-4889-be73-5a07cbd7d44a",
+    "public_id": "c4368033-c60f-462a-947d-fddeaf0a9577",
+    "file": "images/c4368033-c60f-462a-947d-fddeaf0a9577.png",
+    "description": "White Bag - 250g",
+    "uploaded_on": "2024-10-09T19:47:47.082Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 39,
+  "fields": {
+    "attachment_key": "834eb0a1-0bce-4e06-b533-b9b0b205eb02",
+    "public_id": "cf281c98-95ff-491e-944f-0327e8ee1614",
+    "file": "images/cf281c98-95ff-491e-944f-0327e8ee1614.png",
+    "description": "Drip Coffee Box White",
+    "uploaded_on": "2024-10-09T19:48:27.530Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 40,
+  "fields": {
+    "attachment_key": "122355e5-9829-4158-a8c4-d249b65315aa",
+    "public_id": "efc2f520-825f-40f4-8639-18f90a226e9e",
+    "file": "images/efc2f520-825f-40f4-8639-18f90a226e9e.png",
+    "description": "Água sem Gás",
+    "uploaded_on": "2024-10-09T19:48:51.560Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 41,
+  "fields": {
+    "attachment_key": "d25efee2-c152-467d-b1a5-1983dd4312e6",
+    "public_id": "beb5bfc1-eb39-4522-8575-e8600272f7dd",
+    "file": "images/beb5bfc1-eb39-4522-8575-e8600272f7dd.png",
+    "description": "Fritz Kola",
+    "uploaded_on": "2024-10-09T19:49:01.722Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 42,
+  "fields": {
+    "attachment_key": "3221add8-0edb-4f03-b7bc-842d67ff1f1c",
+    "public_id": "1d34507f-acd8-45fb-9d08-ae69651e5129",
+    "file": "images/1d34507f-acd8-45fb-9d08-ae69651e5129.png",
+    "description": "Água com Gás",
+    "uploaded_on": "2024-10-09T19:49:11.209Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 43,
+  "fields": {
+    "attachment_key": "4eaf5b69-6df8-44b2-ac49-24e310f2b97f",
+    "public_id": "971e1e7d-034d-4cd2-be43-0d731127b48f",
+    "file": "images/971e1e7d-034d-4cd2-be43-0d731127b48f.png",
+    "description": "Leite Vegetal Nude - 1L",
+    "uploaded_on": "2024-10-09T19:49:24.089Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 44,
+  "fields": {
+    "attachment_key": "d02bc5b2-67ab-4889-abe3-520a7fa027b5",
+    "public_id": "3635360c-e0ae-4b56-9d5b-7bece9a35ef4",
+    "file": "images/3635360c-e0ae-4b56-9d5b-7bece9a35ef4.png",
+    "description": "White Bag - 1Kg",
+    "uploaded_on": "2024-10-09T19:49:45.161Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 45,
+  "fields": {
+    "attachment_key": "83fbbb76-873c-4999-a6f4-fd9b3df2a122",
+    "public_id": "5a2e0b8c-7de7-4ad9-84ba-12c242302675",
+    "file": "images/5a2e0b8c-7de7-4ad9-84ba-12c242302675.png",
+    "description": "Chai Latte",
+    "uploaded_on": "2024-10-11T17:39:01.273Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 46,
+  "fields": {
+    "attachment_key": "62deef19-7723-47d6-9a25-f13874835ed9",
+    "public_id": "c81bdf9e-3f8b-47ac-aa7d-a2955ed3d1e6",
+    "file": "images/c81bdf9e-3f8b-47ac-aa7d-a2955ed3d1e6.png",
+    "description": "Chai Iced Latte",
+    "uploaded_on": "2024-10-14T14:12:58.949Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 47,
+  "fields": {
+    "attachment_key": "c86d08fa-f900-4ff1-8d2b-6485f17b393e",
+    "public_id": "d680e4bb-b2f5-4422-baa2-215d64acfba5",
+    "file": "images/d680e4bb-b2f5-4422-baa2-215d64acfba5.png",
+    "description": "Iced Chocolate",
+    "uploaded_on": "2024-10-14T14:16:46.758Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 48,
+  "fields": {
+    "attachment_key": "7a4704da-1db6-43c8-8441-f554a7fe51c1",
+    "public_id": "2985c2a2-6d8f-4c36-a209-84fdaaecd02e",
+    "file": "images/2985c2a2-6d8f-4c36-a209-84fdaaecd02e.png",
+    "description": "Iced Coconut",
+    "uploaded_on": "2024-10-14T14:24:06.979Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 49,
+  "fields": {
+    "attachment_key": "4aa5f2db-39d7-443f-b02d-8e0952b5e020",
+    "public_id": "94e824f3-07aa-415c-8ec3-825dc0ec9ac0",
+    "file": "images/94e824f3-07aa-415c-8ec3-825dc0ec9ac0.png",
+    "description": "Tonka Iced Latte",
+    "uploaded_on": "2024-10-14T14:27:49.606Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 50,
+  "fields": {
+    "attachment_key": "a46cf29b-af8e-464a-a378-8bbc33b7e9ea",
+    "public_id": "72a44077-99bc-416b-9a6c-9baf66e5cd85",
+    "file": "images/72a44077-99bc-416b-9a6c-9baf66e5cd85.png",
+    "description": "Muffin Tradicional",
+    "uploaded_on": "2024-10-14T14:29:48.446Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$10MDUQTgRodFsnTWpuVgCc$jC9wXGeY3QhvjkSb7Ff4RLZOwcA9+KV+5khidKE1EFU=",
+    "last_login": "2024-11-11T14:40:20.331Z",
+    "is_superuser": true,
+    "passage_id": "324321544235435",
+    "email": "a@a.com",
+    "name": "Superusuário",
+    "cep": null,
+    "endereco": null,
+    "cpf": null,
+    "idade": null,
+    "telefone": null,
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$kUOkMZIXsPwi44nxy3hnnf$yYwWlc/LDIK60G8gA3mZ+E0ELANWDjt11JXEGxE1uVM=",
+    "last_login": "2024-10-02T19:25:14.123Z",
+    "is_superuser": false,
+    "passage_id": "MtcGIxL29xpeMv6RhC2OFqQm",
+    "email": "luisc.martinsjunior5@gmail.com",
+    "name": "Luís Carlos Martins Junior",
+    "cep": "89208-751",
+    "endereco": "Avenida Paulo Schroeder 2399",
+    "cpf": "073.944.269-47",
+    "idade": 18,
+    "telefone": "47996206490",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Xbuu969H5kIo4BBpyziPFI$vJbjIfiNOq6JouVEn7mNC5FKYClwjA5P4cZFMcrJSHk=",
+    "last_login": "2024-10-02T19:28:50.263Z",
+    "is_superuser": true,
+    "passage_id": "",
+    "email": "gerencia01@gmail.com",
+    "name": "Gerencia 01",
+    "cep": null,
+    "endereco": null,
+    "cpf": null,
+    "idade": null,
+    "telefone": null,
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "descricao": "Gelada"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 2,
+  "fields": {
+    "descricao": "Quente"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 3,
+  "fields": {
+    "descricao": "Café"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 4,
+  "fields": {
+    "descricao": "Chá"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 5,
+  "fields": {
+    "descricao": "Frapê"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 6,
+  "fields": {
+    "descricao": "Frappuccino"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 7,
+  "fields": {
+    "descricao": "Gluten-Free"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 8,
+  "fields": {
+    "descricao": "Lactose-Free"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 10,
+  "fields": {
+    "descricao": "Leite"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 11,
+  "fields": {
+    "descricao": "Chai"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 12,
+  "fields": {
+    "descricao": "Bebidas"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 13,
+  "fields": {
+    "descricao": "Pó de Café"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 14,
+  "fields": {
+    "descricao": "Refrigerante"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 15,
+  "fields": {
+    "descricao": "Chá em Pó"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 16,
+  "fields": {
+    "descricao": "Puristas"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 17,
+  "fields": {
+    "descricao": "Autorais"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 18,
+  "fields": {
+    "descricao": "Comidas"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 19,
+  "fields": {
+    "descricao": "Tonka"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 20,
+  "fields": {
+    "descricao": "Suco"
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 3,
+  "fields": {
+    "descricao": "Banana",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 5,
+  "fields": {
+    "descricao": "Café",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 6,
+  "fields": {
+    "descricao": "Leite",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 7,
+  "fields": {
+    "descricao": "Chá verde",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 8,
+  "fields": {
+    "descricao": "Chai",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 9,
+  "fields": {
+    "descricao": "Chocolate",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 10,
+  "fields": {
+    "descricao": "Coco",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 11,
+  "fields": {
+    "descricao": "Essência de Baunilha",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 12,
+  "fields": {
+    "descricao": "Laranja",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 13,
+  "fields": {
+    "descricao": "Matcha",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 14,
+  "fields": {
+    "descricao": "Caramelo",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 15,
+  "fields": {
+    "descricao": "Geleia de Frutas Vermelhas",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 16,
+  "fields": {
+    "descricao": "Curcuma",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 17,
+  "fields": {
+    "descricao": "Queijo",
+    "status": 1
+  }
+},
+{
+  "model": "core.ingrediente",
+  "pk": 18,
+  "fields": {
+    "descricao": "Polvilho",
+    "status": 1
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 2,
+  "fields": {
+    "nome": "Hot Drip",
+    "descricao": "Café coado. O método perfeito para apreciar um bom café especial.",
+    "preco": "3.50",
+    "quantidade": 20,
+    "imagemDoProduto": 29,
+    "categoria": [
+      2,
+      3,
+      12
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 3,
+  "fields": {
+    "nome": "Pure Black Double Shot - 36ml",
+    "descricao": "O Espresso duplo, 18g de café em 36ml de água.",
+    "preco": "7.99",
+    "quantidade": 1000,
+    "imagemDoProduto": 36,
+    "categoria": [
+      2,
+      3,
+      12
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 4,
+  "fields": {
+    "nome": "Americano - 160ml",
+    "descricao": "Um Pure Black diluído em 120ml de água. (café especial)",
+    "preco": "10.99",
+    "quantidade": 1000,
+    "imagemDoProduto": 29,
+    "categoria": [
+      2,
+      3,
+      12
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 5,
+  "fields": {
+    "nome": "Cappuccino - 230ml",
+    "descricao": "Cappuccino italiano: Leite vaporizado em um single shot de espresso (9g de café)",
+    "preco": "10.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 24,
+    "categoria": [
+      2,
+      3,
+      12
+    ],
+    "ingredientes": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 6,
+  "fields": {
+    "nome": "Chai Latte - 230ml",
+    "descricao": "Chai e leite vaporizado. Mix de canela, gengibre, erva-doce, pimenta preta, cravo e anis.",
+    "preco": "10.99",
+    "quantidade": 1000,
+    "imagemDoProduto": 45,
+    "categoria": [
+      2,
+      11,
+      12
+    ],
+    "ingredientes": [
+      6
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 7,
+  "fields": {
+    "nome": "Cold Drip",
+    "descricao": "Coado gelado, com pedras de gelo (400 ml)",
+    "preco": "4.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 19,
+    "categoria": [
+      1,
+      3,
+      7,
+      8,
+      12
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 8,
+  "fields": {
+    "nome": "Cold Drip + Milk - (400 ml)",
+    "descricao": "O coado perfeito com um toque de leite",
+    "preco": "6.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 14,
+    "categoria": [
+      1,
+      10,
+      3,
+      12
+    ],
+    "ingredientes": [
+      5,
+      6
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 9,
+  "fields": {
+    "nome": "White Bag - 1Kg",
+    "descricao": "Café especial - Blend - 80 a 85 pontos",
+    "preco": "59.99",
+    "quantidade": 1000,
+    "imagemDoProduto": 44,
+    "categoria": [
+      13
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 10,
+  "fields": {
+    "nome": "Nude Edição Barista",
+    "descricao": "Leite Vegetal Nude",
+    "preco": "20.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 43,
+    "categoria": [
+      8,
+      7
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 11,
+  "fields": {
+    "nome": "Água com Gás",
+    "descricao": "Água Mineral com Gás",
+    "preco": "5.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 42,
+    "categoria": [
+      12
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 12,
+  "fields": {
+    "nome": "Fritz Kola",
+    "descricao": "Contém extrato de noz de cola e cafeína natural – um estímulo inconfundível.Vegano.",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 41,
+    "categoria": [
+      1,
+      12,
+      14
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 13,
+  "fields": {
+    "nome": "Água sem Gás",
+    "descricao": "Água Mineral sem Gás",
+    "preco": "5.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 40,
+    "categoria": [
+      12
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 14,
+  "fields": {
+    "nome": "Drip Coffee Box White",
+    "descricao": "8 sachês com 10g cada. Sachê de café White moído com filtro para fazer um coado diretamente na xícara.",
+    "preco": "20.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 39,
+    "categoria": [
+      3,
+      13
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 15,
+  "fields": {
+    "nome": "White bag - 250g",
+    "descricao": "Café especial de 80 a 85 pontos",
+    "preco": "29.99",
+    "quantidade": 1000,
+    "imagemDoProduto": 38,
+    "categoria": [
+      3,
+      13
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 16,
+  "fields": {
+    "nome": "Black edition - 250g",
+    "descricao": "Café especial - Single Origin - 88 pontos ou mais",
+    "preco": "32.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 37,
+    "categoria": [
+      3,
+      13
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 17,
+  "fields": {
+    "nome": "Pure Black (Double Shot)",
+    "descricao": "O Espresso. Duplo. 18g de café em 36ml de água. (só café especial) (36 ml)",
+    "preco": "7.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 36,
+    "categoria": [
+      8,
+      2,
+      3
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 18,
+  "fields": {
+    "nome": "Refill Matcha Sachet",
+    "descricao": "Refill Matcha Sachet 30g",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 35,
+    "categoria": [
+      4,
+      15
+    ],
+    "ingredientes": [
+      7
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 19,
+  "fields": {
+    "nome": "Chai Iced Latte",
+    "descricao": "Latte gelado com Chai. Um mix de especiarias como canela, erva doce, pimenta preta, cravo e anis. É algo de outro planeta. (Sem café, com leite) (330 ml)",
+    "preco": "19.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 46,
+    "categoria": [
+      16,
+      1,
+      10,
+      12
+    ],
+    "ingredientes": [
+      6,
+      8
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 20,
+  "fields": {
+    "nome": "Iced Chocolate",
+    "descricao": "Bebida com leite e preparado de chocolate. Isso acontece uma vez na vida. (400 ml)",
+    "preco": "17.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 47,
+    "categoria": [
+      16,
+      1
+    ],
+    "ingredientes": [
+      6,
+      9
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 21,
+  "fields": {
+    "nome": "Iced Coconut",
+    "descricao": "Dose de espresso com água de coco",
+    "preco": "16.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 48,
+    "categoria": [
+      1,
+      3,
+      12,
+      17
+    ],
+    "ingredientes": [
+      5,
+      6,
+      10
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 22,
+  "fields": {
+    "nome": "Muffin Tradicional",
+    "descricao": "Uma obra prima de sabor tradicional com gotas de chocolate.",
+    "preco": "6.50",
+    "quantidade": 1000,
+    "imagemDoProduto": 50,
+    "categoria": [
+      18
+    ],
+    "ingredientes": [
+      9
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 23,
+  "fields": {
+    "nome": "Tonka Iced Latte - 400ml",
+    "descricao": "Café, leite e essência de \"baunilha amazônica\". (400 ml)",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 49,
+    "categoria": [
+      1,
+      19,
+      17
+    ],
+    "ingredientes": [
+      5,
+      6,
+      11
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 24,
+  "fields": {
+    "nome": "Fritz Limo - 400ml",
+    "descricao": "Contém extrato de noz de cola e cafeína natural – um estímulo inconfundível.",
+    "preco": "5.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 34,
+    "categoria": [
+      1,
+      12,
+      14
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 25,
+  "fields": {
+    "nome": "Suco Greenpeople de Laranja",
+    "descricao": "Prensado a frio, sem conservantes, aditivos quimicos ou adição de açúcar. Consulte a composição na garrafa.",
+    "preco": "5.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 33,
+    "categoria": [
+      1,
+      20
+    ],
+    "ingredientes": [
+      12
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 26,
+  "fields": {
+    "nome": "Suco Greenpeople de Abacaxi e Hortelã",
+    "descricao": "Prensado a frio, sem conservantes, aditivos químicos ou adição de açúcar. Consulte a composição na garrafa.",
+    "preco": "5.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 32,
+    "categoria": [
+      1,
+      20
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 27,
+  "fields": {
+    "nome": "Suco Greenpeople Verde",
+    "descricao": "Prensado a frio, sem conservantes, aditivos quimicos ou adição de açucar. Consulte a composição na garrafa.",
+    "preco": "5.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 31,
+    "categoria": [
+      1,
+      20
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 28,
+  "fields": {
+    "nome": "Matcha Can - 30g",
+    "descricao": "Matcha Can 30g",
+    "preco": "20.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 30,
+    "categoria": [
+      15
+    ],
+    "ingredientes": [
+      13
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 29,
+  "fields": {
+    "nome": "Croissant",
+    "descricao": "O croissant dos seus sonhos. Aprox. 45 g",
+    "preco": "10.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 24,
+    "categoria": [
+      18
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 30,
+  "fields": {
+    "nome": "Caramel muffin",
+    "descricao": "Muffin de Caramelo",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 27,
+    "categoria": [
+      18
+    ],
+    "ingredientes": [
+      14
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 31,
+  "fields": {
+    "nome": "Kraft edition - 250g",
+    "descricao": "Café especial - Single Origin - 85 a 87 pontos",
+    "preco": "25.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 26,
+    "categoria": [
+      3,
+      13
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 32,
+  "fields": {
+    "nome": "Pain au Chocolat",
+    "descricao": "Massa folhada com recheio de chocolate. Sabor do céu. Aprox: 45 g",
+    "preco": "10.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 25,
+    "categoria": [
+      18
+    ],
+    "ingredientes": [
+      9
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 33,
+  "fields": {
+    "nome": "Croissant com geleia",
+    "descricao": "Croissant servido com adicional de geleia de frutas vermelhas. De lamber os dedos.",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 23,
+    "categoria": [
+      18
+    ],
+    "ingredientes": [
+      15
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 34,
+  "fields": {
+    "nome": "Golden Latte - 230ml",
+    "descricao": "Bebida de curcuma com um toque de baunilha. A preferida de Zeus e todos os deuses do Oliimpo.",
+    "preco": "10.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 22,
+    "categoria": [
+      17,
+      2
+    ],
+    "ingredientes": [
+      5,
+      6,
+      11,
+      16
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 35,
+  "fields": {
+    "nome": "Quiche",
+    "descricao": "Podia ser arte, mas são quiches.",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 21,
+    "categoria": [
+      18
+    ],
+    "ingredientes": []
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 36,
+  "fields": {
+    "nome": "Pão de Queijo",
+    "descricao": "O pão de queijo dos pães de queijo. Tudo de bom.",
+    "preco": "5.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 20,
+    "categoria": [
+      18
+    ],
+    "ingredientes": [
+      17,
+      18
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 37,
+  "fields": {
+    "nome": "Tonka Latte - 230ml",
+    "descricao": "Café, leite vaporizado e essência de \"baunilha amazônica\". Bem vindo ao paraíso.",
+    "preco": "10.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 18,
+    "categoria": [
+      17,
+      2,
+      12
+    ],
+    "ingredientes": [
+      5,
+      6,
+      11
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 38,
+  "fields": {
+    "nome": "Matcha Vanilla Latte - 230ml",
+    "descricao": "Matcha, leite e um toque de baunilha.",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 17,
+    "categoria": [
+      17,
+      2,
+      12
+    ],
+    "ingredientes": [
+      6,
+      11,
+      13
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 39,
+  "fields": {
+    "nome": "Vanilla Latte - 230ml",
+    "descricao": "Latte e Vanilla. Vício com V maiúsculo (com café especial e leite)",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 16,
+    "categoria": [
+      17,
+      2
+    ],
+    "ingredientes": [
+      5,
+      6,
+      11
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 40,
+  "fields": {
+    "nome": "Matcha Tonka Latte - 230ml",
+    "descricao": "Matcha, essência de \"baunilha amazônica\" e leite vaporizado. (Sem Café)",
+    "preco": "15.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 13,
+    "categoria": [],
+    "ingredientes": [
+      6,
+      11,
+      13
+    ]
+  }
+},
+{
+  "model": "core.produto",
+  "pk": 41,
+  "fields": {
+    "nome": "Drip Coffee Box Kraft",
+    "descricao": "8 sachês com 10g cada. Sachê de café Kraft moído com filtro para fazer um coado diretamente na xícara.",
+    "preco": "25.00",
+    "quantidade": 1000,
+    "imagemDoProduto": 12,
+    "categoria": [
+      3,
+      13
+    ],
+    "ingredientes": [
+      5
+    ]
+  }
+},
+{
+  "model": "core.compra",
+  "pk": 1,
+  "fields": {
+    "usuario": 1,
+    "status": 1
+  }
+},
+{
+  "model": "core.itenscompra",
+  "pk": 1,
+  "fields": {
+    "compra": 1,
+    "produto": 2,
+    "quantidade": 2,
+    "observacoes": null
+  }
+}
+]
