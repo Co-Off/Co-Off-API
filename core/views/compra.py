@@ -21,18 +21,18 @@ class CompraViewSet(ModelViewSet):
             )
         with transaction.atomic():
             for item in compra.itens.all():
-                if item.quantidade > item.livro.quantidade:
+                if item.quantidade > item.produto.quantidade:
                     return Response(
                         status=status.HTTP_400_BAD_REQUEST,
                         data={
                             "status": "Quantidade insuficiente",
-                            "livro": item.livro.titulo,
-                            "quantidade_disponivel": item.livro.quantidade,
+                            "produto": item.produto.titulo,
+                            "quantidade_disponivel": item.produto.quantidade,
                         },
                     )
 
-                item.livro.quantidade -= item.quantidade
-                item.livro.save()
+                item.produto.quantidade -= item.quantidade
+                item.produto.save()
             compra.status = Compra.StatusCompra.REALIZADO
             compra.save()
         return Response(status=status.HTTP_200_OK, data={"status": "Compra finalizada"})
