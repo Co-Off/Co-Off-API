@@ -3,13 +3,3380 @@
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
-    "action_time": "2024-11-11T14:41:07.292Z",
+    "action_time": "2024-06-18T18:23:52.651Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Passage id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-24T17:27:12.114Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-21T15:45:38.506Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Gelada",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-21T15:45:44.497Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Quente",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-08-21T15:45:58.505Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Café",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-08-21T15:46:05.482Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Chá",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-08-21T15:46:17.992Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Frapê",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-08-21T15:46:21.977Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Frappuccino",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-08-21T15:51:55.312Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Gluten Free",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-08-21T15:53:17.912Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "lactose-free",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-08-21T15:53:26.777Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Lactose-Free",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-08-21T15:53:42.376Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Gluten-Free",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-08-21T16:12:29.683Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Banana",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-08-21T16:31:27.244Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Chá Gelado",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-08-21T16:35:27.722Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Chá Gelado",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-08-21T18:51:32.024Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Café",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-08-21T18:51:40.344Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Banana",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-08-21T18:51:43.736Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Café",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-09-02T14:37:36.048Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Banana",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-09-02T14:37:45.134Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Jeremias",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-09-02T14:37:57.525Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "BAnana",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-09-02T14:38:03.594Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "BAnana",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-09-27T16:33:09.590Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Compra object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-09-27T16:44:50.633Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "LUÍS CARLOS MARTINS JUNIOR",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-09-27T16:45:15.315Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Café",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-09-27T16:58:13.136Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Espresso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descri\\u00e7\\u00e3o\", \"Preco\", \"Categoria\", \"Ingredientes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-09-27T17:00:44.486Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Espresso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-09-27T17:25:30.168Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Imagem Espresso - 9e563855-8a53-43ef-a52b-cc018b5ca5d4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-09-27T17:25:32.241Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Espresso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-09-27T17:25:51.459Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Imagem Espresso - 9e563855-8a53-43ef-a52b-cc018b5ca5d4",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-09-27T17:26:44.791Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "ItensCompra object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-09-27T17:36:04.468Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Compra object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (1)\", \"fields\": [\"Observacoes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-09-27T17:36:11.378Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Compra object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (1)\", \"fields\": [\"Observacoes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-09-27T17:36:15.719Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Compra object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"itens compra\", \"object\": \"ItensCompra object (1)\", \"fields\": [\"Observacoes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-09-27T17:36:25.989Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Compra object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-09-27T17:38:49.779Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-09-27T17:44:34.682Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Clientes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-09-27T17:45:39.482Z",
     "user": 1,
     "content_type": 3,
     "object_id": "2",
     "object_repr": "Gerente",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-09-27T17:46:24.958Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "3",
+    "object_repr": "Caixa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-09-27T17:47:36.285Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Passage id\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-09-27T17:49:15.898Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-09-27T17:50:10.729Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-09-27T17:50:59.604Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Clientes",
     "action_flag": 2,
     "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-09-27T17:51:35.455Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-09-27T17:52:09.614Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-09-27T17:56:22.832Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Jeremias",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2024-09-30T14:41:14.514Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cep\", \"Endereco\", \"Cpf\", \"Idade\", \"Telefone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2024-10-01T19:06:34.995Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Pure Black (Double Shot - 36ml)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2024-10-01T19:07:36.853Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2024-10-01T19:08:42.574Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descri\\u00e7\\u00e3o\", \"Preco\", \"Categoria\", \"Ingredientes\", \"Quantidade\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2024-10-01T19:10:16.086Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Leite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2024-10-01T19:10:32.488Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Leite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2024-10-01T19:10:41.194Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappucinno",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2024-10-01T19:15:48.631Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Chai",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2024-10-01T19:16:04.667Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Chai Latte",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2024-10-01T19:47:28.941Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano - 160ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2024-10-01T19:47:56.832Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Pure Black Double Shot - 36ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2024-10-01T19:48:28.213Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Chai Latte - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2024-10-01T19:49:24.462Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappucinno - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2024-10-01T19:53:53.329Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": " - b732de8f-7f7b-4ad1-8d88-db81ede58887",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2024-10-01T19:53:55.025Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Chai Latte - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2024-10-01T19:54:25.739Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Chai Latte - b732de8f-7f7b-4ad1-8d88-db81ede58887",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2024-10-01T19:55:55.700Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Cappuccino - 1ad210fa-7f0c-4ed9-a9a3-ccaab975c316",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2024-10-01T19:56:42.088Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Americano - cace9558-1dbd-44a4-9b1c-aba6e860de1f",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2024-10-01T19:56:45.091Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano - 160ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2024-10-02T19:18:11.789Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2024-10-02T19:19:13.984Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Telefone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2024-10-02T19:19:25.637Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2024-10-02T19:19:57.110Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2024-10-02T19:20:30.734Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2024-10-02T19:20:56.212Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2024-10-02T19:25:06.061Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "luisc.martinsjunior5@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Passage id\", \"Cep\", \"Endereco\", \"Cpf\", \"Idade\", \"Telefone\", \"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2024-10-02T19:26:38.707Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "gerencia01@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2024-10-02T19:53:12.187Z",
+    "user": 4,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Pure Black - 18b1a427-797a-44d9-816a-41a604906c25",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2024-10-02T19:53:14.238Z",
+    "user": 4,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Pure Black Double Shot - 36ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2024-10-02T19:53:19.295Z",
+    "user": 4,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Espresso",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2024-10-02T19:54:16.348Z",
+    "user": 4,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Cappuccino - 78c770f3-e85f-4423-b9c3-18191d9a29e5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2024-10-02T19:54:17.333Z",
+    "user": 4,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappucinno - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2024-10-04T18:01:39.186Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "1",
+    "object_repr": "Imagem Espresso - 9e563855-8a53-43ef-a52b-cc018b5ca5d4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2024-10-04T18:02:46.524Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Bebidas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2024-10-04T18:02:51.718Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Espresso",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2024-10-04T18:02:56.470Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Chai Latte - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2024-10-04T18:03:03.639Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappucinno - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2024-10-04T18:03:09.365Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano - 160ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2024-10-04T18:03:13.964Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Pure Black Double Shot - 36ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2024-10-04T18:03:17.636Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Espresso",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2024-10-04T18:03:22.433Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Chai Latte - 230ml",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2024-10-04T18:03:26.383Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappucinno - 230ml",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2024-10-04T18:03:36.922Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano - 160ml",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2024-10-04T18:03:42.912Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano - 160ml",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2024-10-04T18:03:46.034Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Pure Black Double Shot - 36ml",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2024-10-04T18:03:50.018Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Espresso",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2024-10-04T18:10:08.070Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Coado Quente - 36a9608a-21dd-4d52-8b1f-0ced7a0de78a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2024-10-04T18:10:09.945Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Hot Drip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\", \"Descricao\", \"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2024-10-04T18:11:46.789Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Coado Gelado - 62aec385-de70-4348-8066-188491ab8bfa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2024-10-04T18:11:48.729Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "Cold Drip",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2024-10-04T18:13:37.632Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Coado Gelado Leite - 9301416c-016d-46e8-aa7b-b4f3fec1c6ea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2024-10-04T18:13:39.931Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Cold Drip + Milk - (400 ml)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2024-10-09T19:02:09.038Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "9",
+    "object_repr": "Coado Gelado Leite - 9301416c-016d-46e8-aa7b-b4f3fec1c6ea",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2024-10-09T19:02:12.687Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "8",
+    "object_repr": "Coado Gelado - 62aec385-de70-4348-8066-188491ab8bfa",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2024-10-09T19:02:15.607Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "7",
+    "object_repr": "Coado Quente - 36a9608a-21dd-4d52-8b1f-0ced7a0de78a",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2024-10-09T19:02:18.615Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "6",
+    "object_repr": "Cappuccino - 78c770f3-e85f-4423-b9c3-18191d9a29e5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2024-10-09T19:02:21.216Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "5",
+    "object_repr": "Pure Black - 18b1a427-797a-44d9-816a-41a604906c25",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2024-10-09T19:02:24.335Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "4",
+    "object_repr": "Americano - cace9558-1dbd-44a4-9b1c-aba6e860de1f",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2024-10-09T19:02:27.070Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "3",
+    "object_repr": "Cappuccino - 1ad210fa-7f0c-4ed9-a9a3-ccaab975c316",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2024-10-09T19:02:30.704Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "2",
+    "object_repr": "Chai Latte - b732de8f-7f7b-4ad1-8d88-db81ede58887",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2024-10-09T19:35:58.167Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "10",
+    "object_repr": "Coado Gelado Leite - a7a34090-b9be-412b-a039-a7221fea4e1f",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2024-10-09T19:36:00.190Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Cold Drip + Milk - (400 ml)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2024-10-09T19:36:38.692Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": " - f7473d03-6457-457f-b9d8-3095906f239b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2024-10-09T19:36:47.243Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "Coado Gelado - f7473d03-6457-457f-b9d8-3095906f239b",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2024-10-09T19:36:52.907Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "Coado Gelado - f7473d03-6457-457f-b9d8-3095906f239b",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2024-10-09T19:40:23.576Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "11",
+    "object_repr": "Coado Gelado - f7473d03-6457-457f-b9d8-3095906f239b",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2024-10-09T19:40:27.006Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "10",
+    "object_repr": "Coado Gelado Leite - a7a34090-b9be-412b-a039-a7221fea4e1f",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2024-10-09T19:40:38.549Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "12",
+    "object_repr": " - 237bba81-10cc-46c4-a7c7-f0ff235ce116",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2024-10-09T19:40:48.564Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "13",
+    "object_repr": " - 7f671bf3-2b19-4c7d-817f-854e89f1a177",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2024-10-09T19:40:58.315Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "14",
+    "object_repr": " - ed8014e2-b117-43a4-a3c1-1981a706d8bf",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2024-10-09T19:41:09.740Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "15",
+    "object_repr": " - fa91091e-ec35-4a58-b52a-5c19ca85ef42",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2024-10-09T19:41:24.092Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "16",
+    "object_repr": " - bcc58bcf-4688-42a2-bd39-f0d3aac80db0",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2024-10-09T19:41:42.236Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "17",
+    "object_repr": " - fbf2f148-ef05-46bf-b6ac-aa2604dbbde9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2024-10-09T19:41:58.412Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "18",
+    "object_repr": " - 1afb80f9-9963-4d4a-9673-35e3258cf35b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2024-10-09T19:42:09.995Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "19",
+    "object_repr": " - 47b9434c-7436-43f8-89ea-167a1b37cd68",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2024-10-09T19:42:20.236Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "20",
+    "object_repr": " - 4cc7a3a2-238a-4fc5-8234-2c47e6779257",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2024-10-09T19:42:33.284Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "21",
+    "object_repr": " - 295f4c6c-f6e7-4755-85b3-3d177623e845",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2024-10-09T19:42:43.716Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "22",
+    "object_repr": " - e485dc77-f324-4417-84c2-299e1bfa0dac",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2024-10-09T19:42:53.355Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "23",
+    "object_repr": " - 9cc4a5ca-e450-4335-a0bd-6fb8234e4ed5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2024-10-09T19:43:02.851Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "24",
+    "object_repr": " - f7c704c0-525e-47d7-ad5c-21513c10cb2a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2024-10-09T19:43:14.587Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "25",
+    "object_repr": " - 134e7c9f-4e8d-4d14-92cd-9a7d14e1dd9c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2024-10-09T19:43:27.211Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "26",
+    "object_repr": " - 33685c53-5205-4b77-8c5b-17706e74e9e1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2024-10-09T19:43:37.371Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "27",
+    "object_repr": " - 443db267-42a1-4297-aa89-cdf5b8c9d497",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2024-10-09T19:43:52.196Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "28",
+    "object_repr": " - c5470ac0-f91c-4706-a1d7-b8a9b3697d21",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2024-10-09T19:44:28.379Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "29",
+    "object_repr": " - 7d5fbe12-fad5-42e8-9c68-0c0ae4ec59f3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2024-10-09T19:44:41.204Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "30",
+    "object_repr": " - 5adb5f58-d72e-4161-9719-ee1a58c9d812",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2024-10-09T19:44:52.619Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "31",
+    "object_repr": " - ac1e0233-8afb-4b7a-b518-a0036f8176f8",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2024-10-09T19:45:05.452Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "32",
+    "object_repr": " - a8a3da74-d642-49d3-ab83-ffb9407e09ef",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2024-10-09T19:45:16.884Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "33",
+    "object_repr": " - b94831e1-d1a2-4217-90bf-c4043cadd35d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2024-10-09T19:45:29.147Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "34",
+    "object_repr": " - a7f01d7a-faf8-4fbf-aa66-d23ea9b45886",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2024-10-09T19:45:46.443Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "35",
+    "object_repr": " - e04b661f-6d9f-415f-b13c-c5785ea058ee",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2024-10-09T19:47:13.539Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "36",
+    "object_repr": " - 418bccb8-d02b-4662-a03f-fad382293e56",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2024-10-09T19:47:20.090Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "36",
+    "object_repr": " - 418bccb8-d02b-4662-a03f-fad382293e56",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2024-10-09T19:47:33.586Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "37",
+    "object_repr": " - 5419e67c-61fb-484f-807b-2d65c88393ae",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2024-10-09T19:47:47.082Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "38",
+    "object_repr": " - 81392954-880a-4889-be73-5a07cbd7d44a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2024-10-09T19:48:27.530Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "39",
+    "object_repr": " - 834eb0a1-0bce-4e06-b533-b9b0b205eb02",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2024-10-09T19:48:51.560Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "40",
+    "object_repr": " - 122355e5-9829-4158-a8c4-d249b65315aa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2024-10-09T19:49:01.722Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "41",
+    "object_repr": " - d25efee2-c152-467d-b1a5-1983dd4312e6",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2024-10-09T19:49:11.210Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "42",
+    "object_repr": " - 3221add8-0edb-4f03-b7bc-842d67ff1f1c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2024-10-09T19:49:24.090Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "43",
+    "object_repr": " - 4eaf5b69-6df8-44b2-ac49-24e310f2b97f",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2024-10-09T19:49:45.162Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "44",
+    "object_repr": " - d02bc5b2-67ab-4889-abe3-520a7fa027b5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2024-10-11T17:15:06.027Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "44",
+    "object_repr": "White Bag - 1Kg - d02bc5b2-67ab-4889-abe3-520a7fa027b5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2024-10-11T17:17:46.359Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "43",
+    "object_repr": "Leite Vegetal Nude - 4eaf5b69-6df8-44b2-ac49-24e310f2b97f",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2024-10-11T17:17:53.224Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "43",
+    "object_repr": "Leite Vegetal Nude - 1L - 4eaf5b69-6df8-44b2-ac49-24e310f2b97f",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2024-10-11T17:18:16.239Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "42",
+    "object_repr": "Água com Gás - 3221add8-0edb-4f03-b7bc-842d67ff1f1c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2024-10-11T17:18:48.367Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "41",
+    "object_repr": "Fritz Kola - d25efee2-c152-467d-b1a5-1983dd4312e6",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2024-10-11T17:19:02.482Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "40",
+    "object_repr": "Água - 122355e5-9829-4158-a8c4-d249b65315aa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2024-10-11T17:19:10.241Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "40",
+    "object_repr": "Água sem Gás - 122355e5-9829-4158-a8c4-d249b65315aa",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2024-10-11T17:19:46.651Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "39",
+    "object_repr": "Drip Coffee Box White - 834eb0a1-0bce-4e06-b533-b9b0b205eb02",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2024-10-11T17:20:17.999Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "38",
+    "object_repr": "White Bag - 250g - 81392954-880a-4889-be73-5a07cbd7d44a",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2024-10-11T17:20:43.779Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "37",
+    "object_repr": "Black edition - 250g - 5419e67c-61fb-484f-807b-2d65c88393ae",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2024-10-11T17:21:17.548Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "36",
+    "object_repr": "Pure Black (Double Shot) - 418bccb8-d02b-4662-a03f-fad382293e56",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2024-10-11T17:21:47.826Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "35",
+    "object_repr": "Refill Matcha Sachet - 30g - e04b661f-6d9f-415f-b13c-c5785ea058ee",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2024-10-11T17:22:06.778Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "34",
+    "object_repr": "Fritz Limo - a7f01d7a-faf8-4fbf-aa66-d23ea9b45886",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2024-10-11T17:22:27.445Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "33",
+    "object_repr": "Suco Greenpeople de Laranja - b94831e1-d1a2-4217-90bf-c4043cadd35d",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2024-10-11T17:22:45.499Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "32",
+    "object_repr": "Suco Greenpeople de Abacaxi e Hortelã - a8a3da74-d642-49d3-ab83-ffb9407e09ef",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2024-10-11T17:23:01.531Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "31",
+    "object_repr": "Suco Greenpeople Verde - ac1e0233-8afb-4b7a-b518-a0036f8176f8",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2024-10-11T17:23:20.148Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "30",
+    "object_repr": "Matcha Can - 30g - 5adb5f58-d72e-4161-9719-ee1a58c9d812",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2024-10-11T17:23:38.238Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "29",
+    "object_repr": "Americano - 7d5fbe12-fad5-42e8-9c68-0c0ae4ec59f3",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2024-10-11T17:24:02.032Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "28",
+    "object_repr": "Croissant - c5470ac0-f91c-4706-a1d7-b8a9b3697d21",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2024-10-11T17:24:25.890Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "27",
+    "object_repr": "Caramel muffin - 443db267-42a1-4297-aa89-cdf5b8c9d497",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2024-10-11T17:24:45.663Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "26",
+    "object_repr": "Kraft edition - 250g - 33685c53-5205-4b77-8c5b-17706e74e9e1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2024-10-11T17:25:08.030Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "25",
+    "object_repr": "Pain au Chocolat - 134e7c9f-4e8d-4d14-92cd-9a7d14e1dd9c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2024-10-11T17:25:33.156Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "24",
+    "object_repr": "Cappuccino - f7c704c0-525e-47d7-ad5c-21513c10cb2a",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2024-10-11T17:25:55.947Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "23",
+    "object_repr": "Croissant com geleia - 9cc4a5ca-e450-4335-a0bd-6fb8234e4ed5",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2024-10-11T17:26:38.052Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "22",
+    "object_repr": "Golden Latte - e485dc77-f324-4417-84c2-299e1bfa0dac",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2024-10-11T17:26:56.313Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "21",
+    "object_repr": "Quiche - 295f4c6c-f6e7-4755-85b3-3d177623e845",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2024-10-11T17:27:13.978Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "20",
+    "object_repr": "Pão de Queijo - 4cc7a3a2-238a-4fc5-8234-2c47e6779257",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2024-10-11T17:27:41.132Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "19",
+    "object_repr": "Iced Black - 47b9434c-7436-43f8-89ea-167a1b37cd68",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2024-10-11T17:28:44.356Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "18",
+    "object_repr": "Tonka Latte - 1afb80f9-9963-4d4a-9673-35e3258cf35b",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2024-10-11T17:28:59.939Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "17",
+    "object_repr": "Matcha Vanilla Latte - fbf2f148-ef05-46bf-b6ac-aa2604dbbde9",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2024-10-11T17:29:23.167Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "16",
+    "object_repr": "Vanilla Latte - bcc58bcf-4688-42a2-bd39-f0d3aac80db0",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2024-10-11T17:30:14.764Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "15",
+    "object_repr": " - fa91091e-ec35-4a58-b52a-5c19ca85ef42",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2024-10-11T17:31:43.110Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "14",
+    "object_repr": "Cold Drip V60 + Milk - ed8014e2-b117-43a4-a3c1-1981a706d8bf",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2024-10-11T17:32:06.515Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "13",
+    "object_repr": "Matcha Tonka Latte - 7f671bf3-2b19-4c7d-817f-854e89f1a177",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2024-10-11T17:32:29.541Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "12",
+    "object_repr": "Drip Coffee Box Kraft - 237bba81-10cc-46c4-a7c7-f0ff235ce116",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2024-10-11T17:32:52.297Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Cold Drip + Milk - (400 ml)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2024-10-11T17:32:55.416Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "8",
+    "object_repr": "Cold Drip + Milk - (400 ml)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2024-10-11T17:34:19.536Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "19",
+    "object_repr": "Cold Drip V60 - 47b9434c-7436-43f8-89ea-167a1b37cd68",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2024-10-11T17:34:30.183Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "7",
+    "object_repr": "Cold Drip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2024-10-11T17:39:01.273Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "45",
+    "object_repr": "Chai Latte - 83fbbb76-873c-4999-a6f4-fd9b3df2a122",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2024-10-11T17:39:03.223Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "6",
+    "object_repr": "Chai Latte - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2024-10-11T17:39:12.552Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappucinno - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2024-10-11T17:39:21.513Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "Americano - 160ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2024-10-11T17:39:29.927Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Pure Black Double Shot - 36ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2024-10-11T17:41:37.842Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "29",
+    "object_repr": "Americano - 7d5fbe12-fad5-42e8-9c68-0c0ae4ec59f3",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2024-10-11T17:43:12.755Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "Pó de Café",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2024-10-11T17:44:35.817Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "9",
+    "object_repr": "White Bag - 1Kg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2024-10-11T17:46:15.724Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "10",
+    "object_repr": "Nude Edição Barista",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2024-10-11T17:47:46.200Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "11",
+    "object_repr": "Água com Gás",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2024-10-11T17:49:12.509Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "14",
+    "object_repr": "Refrigerante",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2024-10-11T17:49:55.823Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "12",
+    "object_repr": "Fritz Kola",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2024-10-11T17:51:01.724Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "13",
+    "object_repr": "Água sem Gás",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2024-10-11T17:53:31.796Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "14",
+    "object_repr": "Drip Coffee Box White",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2024-10-11T17:55:30.428Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "15",
+    "object_repr": "White bag - 250g",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2024-10-11T17:56:41.964Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "16",
+    "object_repr": "Black edition - 250g",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2024-10-11T17:58:33.841Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "17",
+    "object_repr": "Pure Black (Double Shot)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2024-10-11T17:59:50.197Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "Chá em Pó",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2024-10-11T18:00:52.409Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Chá verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2024-10-11T18:01:16.953Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "18",
+    "object_repr": "Refill Matcha Sachet",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2024-10-14T13:51:49.269Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "10",
+    "object_repr": "Nude Edição Barista",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2024-10-14T13:51:52.625Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Pure Black Double Shot - 36ml",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2024-10-14T13:53:35.727Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Hot Drip",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"ImagemDoProduto\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2024-10-14T14:11:23.212Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "16",
+    "object_repr": "Puristas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2024-10-14T14:12:24.459Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Chai",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2024-10-14T14:12:58.950Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "46",
+    "object_repr": "Chai Iced Latte - 62deef19-7723-47d6-9a25-f13874835ed9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2024-10-14T14:13:27.647Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "19",
+    "object_repr": "Chai Iced Latte",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2024-10-14T14:15:03.884Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Chocolate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2024-10-14T14:16:46.760Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "47",
+    "object_repr": "Iced Chocolate - c86d08fa-f900-4ff1-8d2b-6485f17b393e",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2024-10-14T14:16:49.770Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "20",
+    "object_repr": "Iced Chocolate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2024-10-14T14:22:52.052Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "Autorais",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2024-10-14T14:23:15.763Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Coco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2024-10-14T14:24:06.981Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "48",
+    "object_repr": "Iced Coconut - 7a4704da-1db6-43c8-8441-f554a7fe51c1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2024-10-14T14:24:16.929Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "21",
+    "object_repr": "Iced Coconut",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2024-10-14T14:27:03.481Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Essência de Baunilha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2024-10-14T14:27:49.607Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "49",
+    "object_repr": "Tonka Iced Latte - 4aa5f2db-39d7-443f-b02d-8e0952b5e020",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2024-10-14T14:27:58.199Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "49",
+    "object_repr": "Tonka Iced Latte - 4aa5f2db-39d7-443f-b02d-8e0952b5e020",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2024-10-14T14:29:20.473Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "18",
+    "object_repr": "Comidas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2024-10-14T14:29:48.447Z",
+    "user": 1,
+    "content_type": 15,
+    "object_id": "50",
+    "object_repr": "Muffin Tradicional - a46cf29b-af8e-464a-a378-8bbc33b7e9ea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2024-10-14T14:29:50.001Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "22",
+    "object_repr": "Muffin Tradicional",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2024-10-15T18:58:30.031Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappuccinno - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2024-10-15T18:59:04.819Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappuccino - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2024-10-15T19:02:15.213Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "19",
+    "object_repr": "Tonka",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2024-10-15T19:03:34.262Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "23",
+    "object_repr": "Tonka Iced Latte - 400ml",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2024-10-15T19:09:06.312Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "24",
+    "object_repr": "Fritz Limo - 400ml",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2024-10-15T19:09:38.173Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "24",
+    "object_repr": "Fritz Limo - 400ml",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2024-10-15T19:10:44.104Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "20",
+    "object_repr": "Suco",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2024-10-15T19:11:23.448Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Laranja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2024-10-15T19:11:59.235Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "25",
+    "object_repr": "Suco Greenpeople de Laranja",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2024-10-15T19:13:06.987Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "26",
+    "object_repr": "Suco Greenpeople de Abacaxi e Hortelã",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2024-10-15T19:14:06.023Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "27",
+    "object_repr": "Suco Greenpeople Verde",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2024-10-15T19:15:50.405Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Matcha",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 239,
+  "fields": {
+    "action_time": "2024-10-15T19:16:21.978Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "28",
+    "object_repr": "Matcha Can - 30g",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 240,
+  "fields": {
+    "action_time": "2024-10-15T19:18:15.183Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "29",
+    "object_repr": "Croissant",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 241,
+  "fields": {
+    "action_time": "2024-10-15T19:19:39.070Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Caramelo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 242,
+  "fields": {
+    "action_time": "2024-10-15T19:20:23.844Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "30",
+    "object_repr": "Caramel muffin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 243,
+  "fields": {
+    "action_time": "2024-10-15T19:21:40.743Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "31",
+    "object_repr": "Kraft edition - 250g",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 244,
+  "fields": {
+    "action_time": "2024-10-15T19:22:23.322Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "32",
+    "object_repr": "Pain au Chocolat",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 245,
+  "fields": {
+    "action_time": "2024-10-15T19:23:21.635Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Geleia de Frutas Vermelhas",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 246,
+  "fields": {
+    "action_time": "2024-10-15T19:23:38.197Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "33",
+    "object_repr": "Croissant com geleia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 247,
+  "fields": {
+    "action_time": "2024-10-15T19:24:53.689Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "5",
+    "object_repr": "Cappuccino - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Preco\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 248,
+  "fields": {
+    "action_time": "2024-10-15T19:25:30.400Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Curcuma",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 249,
+  "fields": {
+    "action_time": "2024-10-15T19:26:05.485Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "34",
+    "object_repr": "Golden Latte - 230ml",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 250,
+  "fields": {
+    "action_time": "2024-10-15T19:27:13.679Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "35",
+    "object_repr": "Quiche",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 251,
+  "fields": {
+    "action_time": "2024-10-15T19:28:20.685Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "36",
+    "object_repr": "Pão de Queijo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 252,
+  "fields": {
+    "action_time": "2024-10-15T19:28:50.533Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Queijo",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 253,
+  "fields": {
+    "action_time": "2024-10-15T19:29:02.296Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Polvilho",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 254,
+  "fields": {
+    "action_time": "2024-10-15T19:29:04.492Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "36",
+    "object_repr": "Pão de Queijo",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Ingredientes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 255,
+  "fields": {
+    "action_time": "2024-10-15T19:30:59.550Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "37",
+    "object_repr": "Tonka Latte - 230ml",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 256,
+  "fields": {
+    "action_time": "2024-10-15T19:32:45.956Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "38",
+    "object_repr": "Matcha Vanilla Latte - 230ml",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 257,
+  "fields": {
+    "action_time": "2024-10-15T19:34:18.853Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "39",
+    "object_repr": "Vanilla Latte - 230ml",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 258,
+  "fields": {
+    "action_time": "2024-10-15T19:35:44.440Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "40",
+    "object_repr": "Matcha Tonka Latte",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 259,
+  "fields": {
+    "action_time": "2024-10-15T19:35:54.801Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "40",
+    "object_repr": "Matcha Tonka Latte - 230ml",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 260,
+  "fields": {
+    "action_time": "2024-10-15T19:38:02.178Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "41",
+    "object_repr": "Drip Coffee Box Kraft",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 },
 {
@@ -196,180 +3563,180 @@
   "model": "auth.permission",
   "pk": 21,
   "fields": {
-    "name": "Can add document",
+    "name": "Can add Usuário",
     "content_type": 6,
-    "codename": "add_document"
+    "codename": "add_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 22,
   "fields": {
-    "name": "Can change document",
+    "name": "Can change Usuário",
     "content_type": 6,
-    "codename": "change_document"
+    "codename": "change_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 23,
   "fields": {
-    "name": "Can delete document",
+    "name": "Can delete Usuário",
     "content_type": 6,
-    "codename": "delete_document"
+    "codename": "delete_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 24,
   "fields": {
-    "name": "Can view document",
+    "name": "Can view Usuário",
     "content_type": 6,
-    "codename": "view_document"
+    "codename": "view_user"
   }
 },
 {
   "model": "auth.permission",
   "pk": 25,
   "fields": {
-    "name": "Can add image",
+    "name": "Can add categoria",
     "content_type": 7,
-    "codename": "add_image"
+    "codename": "add_categoria"
   }
 },
 {
   "model": "auth.permission",
   "pk": 26,
   "fields": {
-    "name": "Can change image",
+    "name": "Can change categoria",
     "content_type": 7,
-    "codename": "change_image"
+    "codename": "change_categoria"
   }
 },
 {
   "model": "auth.permission",
   "pk": 27,
   "fields": {
-    "name": "Can delete image",
+    "name": "Can delete categoria",
     "content_type": 7,
-    "codename": "delete_image"
+    "codename": "delete_categoria"
   }
 },
 {
   "model": "auth.permission",
   "pk": 28,
   "fields": {
-    "name": "Can view image",
+    "name": "Can view categoria",
     "content_type": 7,
-    "codename": "view_image"
+    "codename": "view_categoria"
   }
 },
 {
   "model": "auth.permission",
   "pk": 29,
   "fields": {
-    "name": "Can add Usuário",
+    "name": "Can add ingrediente",
     "content_type": 8,
-    "codename": "add_user"
+    "codename": "add_ingrediente"
   }
 },
 {
   "model": "auth.permission",
   "pk": 30,
   "fields": {
-    "name": "Can change Usuário",
+    "name": "Can change ingrediente",
     "content_type": 8,
-    "codename": "change_user"
+    "codename": "change_ingrediente"
   }
 },
 {
   "model": "auth.permission",
   "pk": 31,
   "fields": {
-    "name": "Can delete Usuário",
+    "name": "Can delete ingrediente",
     "content_type": 8,
-    "codename": "delete_user"
+    "codename": "delete_ingrediente"
   }
 },
 {
   "model": "auth.permission",
   "pk": 32,
   "fields": {
-    "name": "Can view Usuário",
+    "name": "Can view ingrediente",
     "content_type": 8,
-    "codename": "view_user"
+    "codename": "view_ingrediente"
   }
 },
 {
   "model": "auth.permission",
   "pk": 33,
   "fields": {
-    "name": "Can add categoria",
+    "name": "Can add bebida",
     "content_type": 9,
-    "codename": "add_categoria"
+    "codename": "add_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 34,
   "fields": {
-    "name": "Can change categoria",
+    "name": "Can change bebida",
     "content_type": 9,
-    "codename": "change_categoria"
+    "codename": "change_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 35,
   "fields": {
-    "name": "Can delete categoria",
+    "name": "Can delete bebida",
     "content_type": 9,
-    "codename": "delete_categoria"
+    "codename": "delete_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 36,
   "fields": {
-    "name": "Can view categoria",
+    "name": "Can view bebida",
     "content_type": 9,
-    "codename": "view_categoria"
+    "codename": "view_bebida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 37,
   "fields": {
-    "name": "Can add ingrediente",
+    "name": "Can add comida",
     "content_type": 10,
-    "codename": "add_ingrediente"
+    "codename": "add_comida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 38,
   "fields": {
-    "name": "Can change ingrediente",
+    "name": "Can change comida",
     "content_type": 10,
-    "codename": "change_ingrediente"
+    "codename": "change_comida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 39,
   "fields": {
-    "name": "Can delete ingrediente",
+    "name": "Can delete comida",
     "content_type": 10,
-    "codename": "delete_ingrediente"
+    "codename": "delete_comida"
   }
 },
 {
   "model": "auth.permission",
   "pk": 40,
   "fields": {
-    "name": "Can view ingrediente",
+    "name": "Can view comida",
     "content_type": 10,
-    "codename": "view_ingrediente"
+    "codename": "view_comida"
   }
 },
 {
@@ -481,6 +3848,78 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 14,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 14,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 14,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 14,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 15,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 15,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 15,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 15,
+    "codename": "view_image"
+  }
+},
+{
   "model": "auth.group",
   "pk": 1,
   "fields": {
@@ -503,60 +3942,7 @@
   "pk": 2,
   "fields": {
     "name": "Gerente",
-    "permissions": [
-      1,
-      2,
-      3,
-      4,
-      9,
-      10,
-      11,
-      12,
-      5,
-      6,
-      7,
-      8,
-      13,
-      14,
-      15,
-      16,
-      33,
-      34,
-      35,
-      36,
-      41,
-      42,
-      43,
-      44,
-      37,
-      38,
-      39,
-      40,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      29,
-      30,
-      31,
-      32,
-      17,
-      18,
-      19,
-      20,
-      21,
-      22,
-      23,
-      24,
-      25,
-      26,
-      27,
-      28
-    ]
+    "permissions": []
   }
 },
 {
@@ -620,29 +4006,13 @@
   "model": "contenttypes.contenttype",
   "pk": 6,
   "fields": {
-    "app_label": "uploader",
-    "model": "document"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 7,
-  "fields": {
-    "app_label": "uploader",
-    "model": "image"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 8,
-  "fields": {
     "app_label": "core",
     "model": "user"
   }
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 9,
+  "pk": 7,
   "fields": {
     "app_label": "core",
     "model": "categoria"
@@ -650,10 +4020,26 @@
 },
 {
   "model": "contenttypes.contenttype",
-  "pk": 10,
+  "pk": 8,
   "fields": {
     "app_label": "core",
     "model": "ingrediente"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "bebida"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "comida"
   }
 },
 {
@@ -681,11 +4067,171 @@
   }
 },
 {
-  "model": "sessions.session",
-  "pk": "d9708ip0xwpg9w3bq4paswrxrpqygvj6",
+  "model": "contenttypes.contenttype",
+  "pk": 14,
   "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1tAVaW:ltVdjVRp_8UfIUU42MclJjpnDB3WZHDNJBFFHrUYgko",
-    "expire_date": "2024-11-25T14:40:20.358Z"
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3wr1wclyw9hc95bb7v6w6559rubvysxc",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-4jUlfc5g2btrHECJFCcV4u4QKQW0b2beS6S8rS1tnZc0krgIJ06_W8n44GkHdM_TbZY4T-syFrkr8qBdDjPx83q4fwct9_at2bhYi7UKKUBA5c9gibX1MWt2gQ0p4wFV0RiRIEA1iBBrzZrIgBPvD99FOBI:1sw51m:osuiwxNa60E6bF4R7Oxwb5NFh1c9u9DfVacZnQseiUA",
+    "expire_date": "2024-10-16T19:28:50.267Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4387114s447qamyqht339numo16w884d",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1so4p2:aHaO7XUftAy6t83fVXTVPfQ7xQBLWOh7X3XSAaawYXY",
+    "expire_date": "2024-09-24T17:38:36.541Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "60aibj2qccnugrjh11uyhrhmwzdui1oh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sLnSm:j0HQkjbNxWzfywH481e3iiy2qq08knrwB1ZLaagwRb0",
+    "expire_date": "2024-07-08T17:26:44.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "72yzopgci6duxgrmp0oiiljmdrk5pk1z",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1t0mKF:SNC04Rr21Ry1mC7-DE975C40fSaqZZy5aapgbClmKA8",
+    "expire_date": "2024-10-29T18:31:19.674Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8bot3ummhqqx0cnqr8gsp1h0cb5zjou0",
+  "fields": {
+    "session_data": ".eJxVjDEKwzAMAP_iuRjHUmLo2L1vCLJk1WmLDXEyhf69GDK0691xh5lp3_K8t7TOi5irGczll0XiVypdyJPKo1quZVuXaHtiT9vsvUp63872b5Cp5b71mkAIFHWgcXKenQZEYlIYZfRJJo7BITIE8YGjuuDUQ0JE8Arm8wX3gjgU:1sw4ro:ckaLDHQfJVhLYrPgK1cIFybI52sUeGM_KiJhsrY8iJY",
+    "expire_date": "2024-10-16T19:18:32.356Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "97hag5ckop9k1pywk9jzru0qxa7dei0f",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1tAUtr:hib81A9o8qAQBbWHnlm8G0ItZfKqpG8A2WqTXUs-Pwg",
+    "expire_date": "2024-11-25T13:56:15.546Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ahfdx139k0ypdgwpvd2ogslgyobiolgs",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1szJoj:Fz8E_FuBjhk2RNrgi0GaViWZZcIlQaxrJXmPnDU0410",
+    "expire_date": "2024-10-25T17:52:45.601Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fgigqqlre5mrpmmq300z385s69xcgdwn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sVx5W:in5DI8MWFfqHmDnlx0MmxosvWqf31MVXNHqDywmdngc",
+    "expire_date": "2024-08-05T17:44:42.461Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hum54w6cnnm1vw8k2tkwbuomnb7ebdex",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1svhZL:vS41hVtV6lNoJCUk1gYw9mrvOjSmieVxyFhXOxhs23Y",
+    "expire_date": "2024-10-15T18:25:55.529Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iw3ozi33g5aga99affmk2pg69gjssjdg",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1sl7nT:-eloHT2FaWXt39VoaiUvY6XESDcE9QXq1tCf37ZZGsM",
+    "expire_date": "2024-09-16T14:12:47.951Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "izvrywpdvfmm22qks389q1h4bt1thmvq",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1svGft:VmtHo1i05xTtglyNuoZHcIvG3V1ouYMr810AuAkP__s",
+    "expire_date": "2024-10-14T13:42:53.310Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jdez7xnmazk5cex8laay45scq6c2xz8r",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1sgnU1:5fO903Y4Nn_8KEvxcJsJHI2OID3WwAj0SkpcWIxir88",
+    "expire_date": "2024-09-04T15:42:49.727Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lsw40prhc6087wc86hp3bx9a3x1k5uq0",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1suF8i:zyxL9319ic31DAGExazXhcxp1WMqf8zuJ9nLdXVhwXI",
+    "expire_date": "2024-10-11T17:52:24.316Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pbk5wb8qkh66dkivd16bglg6dyrspeku",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1sybvg:XsVtIHgTMYKBAgGlrlhl43zKfOmFk5UjuwgxfA6Ib_U",
+    "expire_date": "2024-10-23T19:01:00.013Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rkz1r1fruuvvo9pwzolxittyk64i5n0b",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1sgT6o:MZCaBWDoVQAMf0ytff-Bez8CgI8S09OOL45UNpTgOgs",
+    "expire_date": "2024-09-03T17:57:30.749Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wbto4id3nmzcwtv4obodkqc4i0xoth95",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1t0LU2:bmPg7k455dRyVOufzfiXmcCMM2jLwd9DLEgTRjP7QrI",
+    "expire_date": "2024-10-28T13:51:38.393Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wnfmiy99jh7c1jxcpcpsezafg40fqynv",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1sid69:LB_kpILu-NKkOOCWpDL55QChBCdc0z5u0VTc-zSvTzE",
+    "expire_date": "2024-09-09T17:01:45.539Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wxpaqnodc7ecfd0klxcd5kibokl04hyi",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAodgCX7nsGMjCDVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwk7gILU6_W8T04LoDumO9NZlaXZc5yl2RB-1yasTP6-H-HRTs5VsDKePzSGTdGXRCzIOzg2XyGWxMkAxGpTIhsgYwxuDIrIk9xhSdBvH-AP1AOO8:1t8eyO:jcECtFt1FNFkCo8v1CuBHXi1l-mPErQwlpqA1OWf-Jw",
+    "expire_date": "2024-11-20T12:17:20.734Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yjwv42hyi55wpakgz1o8ls91ty7eqe1u",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sJdUV:rY8hd_2m2u3YGGz5LW3BFQGgHfshutei7gPRDpzv9kY",
+    "expire_date": "2024-07-02T18:23:35.702Z"
   }
 },
 {
@@ -1111,7 +4657,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$870000$10MDUQTgRodFsnTWpuVgCc$jC9wXGeY3QhvjkSb7Ff4RLZOwcA9+KV+5khidKE1EFU=",
-    "last_login": "2024-11-11T14:40:20.331Z",
+    "last_login": "2024-11-11T13:56:15.403Z",
     "is_superuser": true,
     "passage_id": "324321544235435",
     "email": "a@a.com",
@@ -1550,8 +5096,8 @@
     "imagemDoProduto": 14,
     "categoria": [
       1,
-      10,
       3,
+      10,
       12
     ],
     "ingredientes": [
@@ -1587,8 +5133,8 @@
     "quantidade": 1000,
     "imagemDoProduto": 43,
     "categoria": [
-      8,
-      7
+      7,
+      8
     ],
     "ingredientes": []
   }
@@ -1704,9 +5250,9 @@
     "quantidade": 1000,
     "imagemDoProduto": 36,
     "categoria": [
-      8,
       2,
-      3
+      3,
+      8
     ],
     "ingredientes": [
       5
@@ -1741,10 +5287,10 @@
     "quantidade": 1000,
     "imagemDoProduto": 46,
     "categoria": [
-      16,
       1,
       10,
-      12
+      12,
+      16
     ],
     "ingredientes": [
       6,
@@ -1762,8 +5308,8 @@
     "quantidade": 1000,
     "imagemDoProduto": 47,
     "categoria": [
-      16,
-      1
+      1,
+      16
     ],
     "ingredientes": [
       6,
@@ -1821,8 +5367,8 @@
     "imagemDoProduto": 49,
     "categoria": [
       1,
-      19,
-      17
+      17,
+      19
     ],
     "ingredientes": [
       5,
@@ -2009,8 +5555,8 @@
     "quantidade": 1000,
     "imagemDoProduto": 22,
     "categoria": [
-      17,
-      2
+      2,
+      17
     ],
     "ingredientes": [
       5,
@@ -2063,9 +5609,9 @@
     "quantidade": 1000,
     "imagemDoProduto": 18,
     "categoria": [
-      17,
       2,
-      12
+      12,
+      17
     ],
     "ingredientes": [
       5,
@@ -2084,9 +5630,9 @@
     "quantidade": 1000,
     "imagemDoProduto": 17,
     "categoria": [
-      17,
       2,
-      12
+      12,
+      17
     ],
     "ingredientes": [
       6,
@@ -2105,8 +5651,8 @@
     "quantidade": 1000,
     "imagemDoProduto": 16,
     "categoria": [
-      17,
-      2
+      2,
+      17
     ],
     "ingredientes": [
       5,

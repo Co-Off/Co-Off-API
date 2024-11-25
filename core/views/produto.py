@@ -7,6 +7,3 @@ class ProdutoViewSet(ModelViewSet):
     queryset = Produto.objects.all()
     serializer_class = ProdutoSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["categoria__descricao", "editora__nome"]
-
-# descricao preco categoria ingredientes quantidade

@@ -4,7 +4,7 @@ from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.decorators import action
 from rest_framework.viewsets import ModelViewSet
-from core.serializers import CompraSerializer, CompraCreateUpdateSerializer
+from core.serializers import CompraSerializer
 
 
 class CompraViewSet(ModelViewSet):
@@ -53,8 +53,3 @@ class CompraViewSet(ModelViewSet):
             },
             status=status.HTTP_200_OK,
         )
-
-    def get_serializer_class(self):
-        if self.action in ("create", "update"):
-            return CompraCreateUpdateSerializer
-        return CompraSerializer
