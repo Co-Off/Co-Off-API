@@ -124,11 +124,17 @@ if MODE == "DEVELOPMENT":
     MY_IP = os.getenv("MY_IP", "127.0.0.1")
     MEDIA_URL = f"http://{MY_IP}:19003/media/"
 else:
-    CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
-    DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
-    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
     MEDIA_URL = "/media/"
+    CLOUDINARY_URL = os.getenv("CLOUDINARY_URL")
+    STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+    STORAGES = {
+        "default": {
+            "BACKEND": "cloudinary_storage.storage.MediaCloudinaryStorage",
+        },
+        "staticfiles": {
+            "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+        },
+    }
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
