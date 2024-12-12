@@ -65,3 +65,4 @@ uvicorn==0.32.1
 virtualenv==20.26.4
 werkzeug==3.0.4
 whitenoise[brotli]==6.7.0
+psycopg2>=2.9,<3.0
