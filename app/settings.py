@@ -81,7 +81,7 @@ WSGI_APPLICATION = "app.wsgi.application"
 # Databases
 DATABASES = {
     "default": dj_database_url.config(
-        default="sqlite:///db.sqlite3",
+        default="postgres://postgres:2af1c38e7abdfe4cb286f65f73745d29@dokku-postgres-dbcooff:5432/dbcooff",
         conn_max_age=600,
         conn_health_checks=True,
     )
