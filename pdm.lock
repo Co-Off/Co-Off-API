@@ -5,7 +5,7 @@
 groups = ["default", "dev", "format"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:567a3e2774c4d2448a9ae32f64367009211185944007906da26deb4cf425082c"
+content_hash = "sha256:43b9c936b671fa9cf765f804d7bf524bd7e8b4c69e7db3413237f6173b06d3ba"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -862,7 +862,6 @@ name = "python-magic-bin"
 version = "0.4.14"
 summary = "File type identification using libmagic binary package"
 groups = ["default"]
-marker = "sys_platform == \"win32, darwin\""
 files = [
     {file = "python_magic_bin-0.4.14-py2.py3-none-macosx_10_6_intel.whl", hash = "sha256:7b1743b3dbf16601d6eedf4e7c2c9a637901b0faaf24ad4df4d4527e7d8f66a4"},
     {file = "python_magic_bin-0.4.14-py2.py3-none-win32.whl", hash = "sha256:34a788c03adde7608028203e2dbb208f1f62225ad91518787ae26d603ae68892"},
